@@ -13,7 +13,7 @@ To be added.
 
 # NCT Thesaurus (NCT-T)
 ## NCT-T: Overview
-![image](https://user-images.githubusercontent.com/5072766/171009147-38e283dc-34ee-4816-96ac-58b1f8350d38.png)
+![image](https://user-images.githubusercontent.com/5072766/171009917-7a33f2c2-4738-4cbf-8b61-98993fe50034.png)
 Illustration of the data flow in a part of the NCT Thesaurus. Data from different external taxonomies is periodically used to update NCT-T and to provide links to the external taxonomies. The linkage between the tables of the diverse data domains is mainly a result of manual curation (see below).
 
 ## NCT-T: Entity-Relationship-Model
