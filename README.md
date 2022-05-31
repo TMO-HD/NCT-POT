@@ -1,20 +1,34 @@
 # NCT Thesaurus (NCT-T) and NCT Data Space (NCT-DS)
 Ontology for Precision Oncology Workflows at the National Center of Tumor Diseases Heidelberg
 
-# Target
-The NCT aims to support precision oncology workflows by providing: 
-1. **NCT Data Space**: A data concept for organizing both non-patient-related data and patient-related data for precision oncology workflows. 
-2. **NCT Thesaurus**: An ontology embracing a growing number of data domains relevant for precision oncology workflows, e.g. clincal information regarding diagnoses, diagnostics and therapies as well as (molecular)biological/pharmaceutical like drugs (and their classes), drug targets, molecular alterations etc. It integrates both establishes external taxonomies and self-maintained 
-
 # Background
+With the ongoing **transformation of conventional oncology into a data-driven science**, and a rising number of cancer patients undergoing comprehensive OMICs assessments (whole-genome/exome sequencing, transcriptome sequencing, methylome, proteomics, ...), precision oncologists face two critical **challenges**:
+  
+1. Increase the **scalability of existing clinical workflows** (e.g. in molecular tumor boards, MTBs), thereby allowing assessment of best therapeutic options for more patients in less time and with high(er) quality
+2. **Speed up the scientific analysis** of clinic-molecular data of cancer patients, thereby gathering new scientific insights
+
+A part of the solution to these challenges is **strong semantic tagging** of both patient-related and non-patient-related data. There are a lot of published taxonomies available for different data domains in precision oncology (e.g. diagnoses, drugs, therapies, molecular markers etc.), however they frequently **lack sufficient integration**. Besides, for certain domains (e.g. drug classes) the **available taxonomies** are **not sufficient** at all from the clinical perspective.
+
+# Aims
+The NCT aims to support precision oncology workflows by providing: 
+1. **NCT Data Space**: A data concept for organizing both patient-related and non-patient-related data for precision oncology workflows. 
+2. **NCT Thesaurus**: An integrated ontology embracing a growing number of data domains relevant for precision oncology workflows, e.g. clincal information regarding diagnoses, diagnostics and therapies as well as (molecular)biological/pharmaceutical like drugs (and their classes), drug targets, molecular alterations etc. It integrates both establishes external taxonomies and self-maintained 
 
 # NCT Data Space
 To be added.
 
 # NCT Thesaurus (NCT-T)
 ## NCT-T: Overview
+Technically, the NCT-T is implemented as a relational database with tables and links between tables. Generally speaking, we habe three types of tables:
+- **External Shadow Tables**: Importing relevant information from external taxonomies that can be updated (semi-)automatically periodically
+- **NCT-T Integration Tables**: Referencing mapping entries from several external taxonomies, possibly providing added information. 
+- **NCT-T MASTER Tables**: Representing self-maintained proprietory taxonomies
+
 ![image](https://user-images.githubusercontent.com/5072766/171009917-7a33f2c2-4738-4cbf-8b61-98993fe50034.png)
 Illustration of the data flow in a part of the NCT Thesaurus. Data from different external taxonomies is periodically used to update NCT-T and to provide links to the external taxonomies. The linkage between the tables of the diverse data domains is mainly a result of manual curation (see below).
+
+## NCT-T: Data Domains
+Currently there are data tables 
 
 ## NCT-T: Entity-Relationship-Model
 
