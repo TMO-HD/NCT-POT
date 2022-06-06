@@ -19,7 +19,7 @@ To be added.
 
 # NCT Precision Oncology Thesaurus (NCT-POT)
 ## NCT-POT: Overview
-Technically, the NCT-T is implemented as a relational database with tables and links between tables. Generally speaking, we habe three types of tables:
+Technically, the NCT-POT is implemented as a relational database with tables and links between tables. Generally speaking, we habe three types of tables:
 - **External Source Tables**: Importing relevant information from external taxonomies that can be updated (semi-)automatically periodically
 - **NCT-POT Integration Tables**: Referencing mapping entries from several external taxonomies, possibly providing added information. 
 - **NCT-POT MASTER Tables**: Representing self-maintained proprietory taxonomies
@@ -50,7 +50,7 @@ Molecular Targets
 - [Ensembl](http://www.ensembl.org)
 
 ## NCT-POT: Manual Curation
-Data from all sources is periodically updated (usually monthly) from their primary sources and integrated into the NCT-POT, thereby updating the NCI-T master tables. Links between different data domains are manually curated by a team of dedicated scientist and oncologists actively involved in precision oncology workflows within the NCT network.
+Data from all sources is periodically updated (usually monthly) from their primary sources and integrated into the NCT-POT, thereby updating the NCI-POT master tables. Links between different data domains are manually curated by a team of dedicated scientist and oncologists actively involved in precision oncology workflows within the NCT network.
 
 ## NCT-POT: Download and License
 ### NCT Precision Oncology Thesaurus
