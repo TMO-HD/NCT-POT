@@ -1,4 +1,4 @@
-# NCT Thesaurus (NCT-T) and NCT Data Space (NCT-DS)
+# NCT Precision Oncology Thesaurus (NCT-POT) and NCT Data Space (NCT-DS)
 Ontology for Precision Oncology Workflows at the National Center of Tumor Diseases Heidelberg
 
 # Background
@@ -12,29 +12,29 @@ A part of the solution to these challenges is **strong semantic tagging** of bot
 # Aims
 The NCT aims to support precision oncology workflows by providing: 
 1. **NCT Data Space**: A data concept for organizing both patient-related and non-patient-related data for precision oncology workflows. 
-2. **NCT Thesaurus**: An integrated ontology embracing a growing number of data domains relevant for precision oncology workflows, e.g. clincal information regarding diagnoses, diagnostics and therapies as well as (molecular)biological/pharmaceutical like drugs (and their classes), drug targets, molecular alterations etc. It integrates both establishes external taxonomies and self-maintained 
+2. **NCT Precsion Oncology Thesaurus**: An integrated ontology embracing a growing number of data domains relevant for precision oncology workflows, e.g. clincal information regarding diagnoses, diagnostics and therapies as well as (molecular)biological/pharmaceutical like drugs (and their classes), drug targets, molecular alterations etc. It integrates both establishes external taxonomies and self-maintained 
 
 # NCT Data Space
 To be added.
 
-# NCT Thesaurus (NCT-T)
-## NCT-T: Overview
+# NCT Precision Oncology Thesaurus (NCT-POT)
+## NCT-POT: Overview
 Technically, the NCT-T is implemented as a relational database with tables and links between tables. Generally speaking, we habe three types of tables:
 - **External Shadow Tables**: Importing relevant information from external taxonomies that can be updated (semi-)automatically periodically
-- **NCT-T Integration Tables**: Referencing mapping entries from several external taxonomies, possibly providing added information. 
-- **NCT-T MASTER Tables**: Representing self-maintained proprietory taxonomies
+- **NCT-POT Integration Tables**: Referencing mapping entries from several external taxonomies, possibly providing added information. 
+- **NCT-POT MASTER Tables**: Representing self-maintained proprietory taxonomies
 
 ![image](https://user-images.githubusercontent.com/5072766/171009917-7a33f2c2-4738-4cbf-8b61-98993fe50034.png)
-Illustration of the data flow in a part of the NCT Thesaurus. Data from different external taxonomies is periodically used to update NCT-T and to provide links to the external taxonomies. The linkage between the tables of the diverse data domains is mainly a result of manual curation (see below).
+Illustration of the data flow in a part of the NCT Precision Oncology Thesaurus. Data from different external taxonomies is periodically used to update NCT-POT and to provide links to the external taxonomies. The linkage between the tables of the diverse data domains is mainly a result of manual curation (see below).
 
-## NCT-T: Data Domains
+## NCT-POT: Data Domains
 Currently there are data tables 
 
-## NCT-T: Entity-Relationship-Model
+## NCT-POT: Entity-Relationship-Model
 
 
 
-## NCT-T: Sources
+## NCT-POT: Sources
 Diagnoses
 - [OncoTree](http://oncotree.mskcc.org)
 
@@ -49,14 +49,14 @@ Molecular Targets
 - [UniProtKB](https://www.uniprot.org/)
 - [Ensembl](http://www.ensembl.org)
 
-## NCT-T: Manual Curation
-Data from all sources is periodically updated (usually monthly) from their primary sources and integrated into the NCT-T, thereby updating the NCI-T master tables. Links between different data domains are manually curated by a team of dedicated scientist and oncologists actively involved in precision oncology workflows within the NCT network.
+## NCT-POT: Manual Curation
+Data from all sources is periodically updated (usually monthly) from their primary sources and integrated into the NCT-POT, thereby updating the NCI-T master tables. Links between different data domains are manually curated by a team of dedicated scientist and oncologists actively involved in precision oncology workflows within the NCT network.
 
-## NCT-T: Download and License
-### NCT Thesaurus
+## NCT-POT: Download and License
+### NCT Precision Oncology Thesaurus
 Data can be downloaded here.  
 
-Updates of the NCT Thesaurus are provided monthly.
+Updates of the NCT Precision Oncology Thesaurus are provided monthly.
 
 All data is published under the ??? license.
 
