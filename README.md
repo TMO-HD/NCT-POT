@@ -12,7 +12,7 @@ A part of the solution to these challenges is **strong semantic tagging** of bot
 # Aims
 The NCT aims to support precision oncology workflows by providing: 
 1. **NCT Data Space**: A data concept for organizing both patient-related and non-patient-related data for precision oncology workflows. 
-2. **NCT Precsion Oncology Thesaurus**: An integrated ontology embracing a growing number of data domains relevant for precision oncology workflows, e.g. clincal information regarding diagnoses, diagnostics and therapies as well as (molecular)biological/pharmaceutical like drugs (and their classes), drug targets, molecular alterations etc. It integrates both establishes external taxonomies and self-maintained 
+2. **NCT Precision Oncology Thesaurus**: An integrated ontology embracing a growing number of data domains relevant for precision oncology workflows, e.g. clincal information regarding diagnoses, diagnostics and therapies as well as (molecular)biological/pharmaceutical like drugs (and their classes), drug targets, molecular alterations etc. It integrates both establishes external taxonomies and self-maintained 
 
 # NCT Data Space
 To be added.
@@ -20,7 +20,7 @@ To be added.
 # NCT Precision Oncology Thesaurus (NCT-POT)
 ## NCT-POT: Overview
 Technically, the NCT-T is implemented as a relational database with tables and links between tables. Generally speaking, we habe three types of tables:
-- **External Shadow Tables**: Importing relevant information from external taxonomies that can be updated (semi-)automatically periodically
+- **External Source Tables**: Importing relevant information from external taxonomies that can be updated (semi-)automatically periodically
 - **NCT-POT Integration Tables**: Referencing mapping entries from several external taxonomies, possibly providing added information. 
 - **NCT-POT MASTER Tables**: Representing self-maintained proprietory taxonomies
 
