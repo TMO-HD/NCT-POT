@@ -55,7 +55,8 @@ To be added
 |   | Addition of more approval taggings |
 |   | Addition of Onkostar© XML catalog files to read data catalogs in the [Onkostar©](https://www.onkostar.de/) tumor documentation platform |
 | 2022-10-end | Completion of the approvals' biomarker end entity tagging. |
-|   | Addition of EMA approvals |
+|   | Completion  of EMA approval integration |
+|   | Completion of hemonc.org integration |
 | monthly | Updates from sources |
 | continously | Manual curation |
 
