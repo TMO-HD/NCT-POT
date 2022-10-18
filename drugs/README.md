@@ -22,11 +22,13 @@ NCT-POT Drugs must address frequent use cases like:
 
 ## Entity relationship model
 
-![Entity relationship model](https://github.com/TMO-HD/NCT-POT/raw/main/drugs/docs/NC-POT_Drugs_ERM.png)
+![Entity relationship model](https://github.com/TMO-HD/NCT-POT/raw/main/drugs/docs/NCT-POT_Drugs_ERM.png)
 
 ## Drug classes structure
 
 The drug classes are a hierarchal taxonomy, self-maintained by the TMO and focusing on their usage in precision oncology workflows.
+
+![Drug classes structure](https://github.com/TMO-HD/NCT-POT/raw/main/drugs/docs/NCT-POT_Drugs_class_structure.png)
 
 ## Sources for assembly
 
