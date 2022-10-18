@@ -22,7 +22,7 @@ NCT-POT Drugs must address frequent use cases like:
 
 ## Entity relationship model
 
-![Entity relationship model](docs/NCT-POT_Drugs_ERM.png)
+![Entity relationship model](https://github.com/TMO-HD/NCT-POT/raw/main/drugs/docs/NC-POT_Drugs_ERM.png)
 
 ## Drug classes structure
 
@@ -32,14 +32,14 @@ The drug classes are a hierarchal taxonomy, self-maintained by the TMO and focus
 
 | name | source url | assembly tables | comment |
 | --- | --- | --- | --- |
-| **CIVIC Variant Types** | https://civicdb.org/variant-types/home | approvalBiomarker | some items ot covered in the sequence ontology  |
+| **CIVIC Variant Types** | https://civicdb.org/variant-types/home | approvalBiomarker | some items ot covered in the sequence ontology |
 | **FDA Drugs** | https://www.fda.gov/drugs/drug-approvals-and-databases/drugsfda-data-files | drug, drugProduct, approval |   |
 | **HGNC Genes** | https://www.genenames.org/ | drugTarget, drugClass, drugTarget, approvalBiomarker |   |
 | **NCI Thesaurus** | https://www.ebi.ac.uk/ols/ontologies/ncit | drug, drugTarget | only (a subset of) nodes below NCIT\_C1909 ("Pharmacologic Substance") is used |
 | **NCT POT Drugs - drug classes** | https://github.com/TMO-HD/NCT-POT/tree/main/drugs | drugClass | self-maintained at NCT Heidelberg |
 | **NCT POT Drugs - manufacturer** | https://github.com/TMO-HD/NCT-POT/tree/main/drugs | manufacturer | self-maintained at NCT Heidelberg |
 | **Oncotree** | http://oncotree.mskcc.org/ | approval |   |
-| **Sequence Ontology** | http://www.sequenceontology.org/ | approvalBiomarker | manually selected items  |
+| **Sequence Ontology** | http://www.sequenceontology.org/ | approvalBiomarker | manually selected items |
 | **Uniprot** | https://www.uniprot.org/ | drugTarget, approvalBiomarker |   |
 
 ## Data curation process
