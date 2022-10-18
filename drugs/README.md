@@ -22,11 +22,13 @@ NCT-POT Drugs must address frequent use cases like:
 
 ## Entity relationship model
 
-![Entity relationship model](https://github.com/TMO-HD/NCT-POT/raw/main/drugs/docs/NC-POT_Drugs_ERM.png)
+![Entity relationship model](https://github.com/TMO-HD/NCT-POT/raw/main/drugs/docs/NCT-POT_Drugs_ERM.png)
 
 ## Drug classes structure
 
 The drug classes are a hierarchal taxonomy, self-maintained by the TMO and focusing on their usage in precision oncology workflows.
+
+![Drug classes structure](https://github.com/TMO-HD/NCT-POT/raw/main/drugs/docs/NCT-POT_Drugs_class_structure.png)
 
 ## Sources for assembly
 
@@ -50,13 +52,13 @@ To be added
 
 | Date | Task |
 | --- | --- |
-| 2022-10-18 | Upload of initial data sample |
-| 2022-10-21 | Completion of documentation on Github |
-|   | Addition of more approval taggings |
+| 2022-10-18 | Upload of initial sample data  |
+| 2022-10-21 | Upload of complete (currently curated) data  |
+|   | Completion of documentation on Github |
 |   | Addition of Onkostar© XML catalog files to read data catalogs in the [Onkostar©](https://www.onkostar.de/) tumor documentation platform |
-| 2022-10-end | Completion of the approvals' biomarker end entity tagging. |
-|   | Completion  of EMA approval integration |
-|   | Completion of hemonc.org integration |
+| 2022-10-end | Completion of the approvals' biomarker and entity tagging. |
+|   | EMA approval integration |
+|   | hemonc.org integration |
 | monthly | Updates from sources |
 | continously | Manual curation |
 
