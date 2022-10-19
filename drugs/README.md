@@ -52,8 +52,8 @@ To be added
 
 | Date | Task |
 | --- | --- |
-| 2022-10-18 | Upload of initial sample data  |
-| 2022-10-21 | Upload of complete (currently curated) data  |
+| 2022-10-18 | Upload of initial sample data |
+| 2022-10-21 | Upload of complete (currently curated) data |
 |   | Completion of documentation on Github |
 |   | Addition of Onkostar© XML catalog files to read data catalogs in the [Onkostar©](https://www.onkostar.de/) tumor documentation platform |
 | 2022-10-end | Completion of the approvals' biomarker and entity tagging. |
@@ -66,9 +66,9 @@ To be added
 
 **NCT POT Drugs** is released monthly.
 
-| Date | RData | CSV | Onkostar® | Stats |
+| Date | RData | CSV | Onkostar® | Comment |
 | --- | --- | --- | --- | --- |
-| 2022-10-18 | Upload planned for 2022-10-18 | Upload planned for 2022-10-18 | Upload planned | Upload planned for 2022-10-18 |
+| 2022-10-19 | [Download](https://github.com/TMO-HD/NCT-POT/tree/main/drugs/tsv_archive/2022-10-19) | [Download](https://github.com/TMO-HD/NCT-POT/tree/main/drugs/tsv_archive/2022-10-19) | upcoming | large sample file, but not yet totally complete (see [Roadmap](#Roadmap)) |
 
 ## License
 
