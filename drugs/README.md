@@ -66,9 +66,9 @@ To be added
 
 **NCT POT Drugs** is released monthly.
 
-| Date | RData | CSV | Onkostar® | Comment |
+| Date | RData | TSV | Onkostar® | Comment |
 | --- | --- | --- | --- | --- |
-| 2022-10-19 | [Download](https://github.com/TMO-HD/NCT-POT/tree/main/drugs/tsv_archive/2022-10-19) | [Download](https://github.com/TMO-HD/NCT-POT/tree/main/drugs/tsv_archive/2022-10-19) | upcoming | large sample file, but not yet totally complete (see [Roadmap](#Roadmap)) |
+| 2022-10-19 | [Download](https://github.com/TMO-HD/NCT-POT/tree/main/drugs/RData_archive/2022-10-19) | [Download](https://github.com/TMO-HD/NCT-POT/tree/main/drugs/tsv_archive/2022-10-19) | upcoming | large sample file, but not yet totally complete (see [Roadmap](#Roadmap)) |
 
 ## License
 
