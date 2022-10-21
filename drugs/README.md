@@ -53,7 +53,7 @@ To be added
 | Date | Task |
 | --- | --- |
 | 2022-10-18 | Upload of initial sample data |
-| 2022-10-21 | Upload of complete (currently curated) data |
+| 2022-10-24 | Upload of complete (currently curated) data |
 |   | Completion of documentation on Github |
 |   | Addition of Onkostar© XML catalog files to read data catalogs in the [Onkostar©](https://www.onkostar.de/) tumor documentation platform |
 | 2022-10-end | Completion of the approvals' biomarker and entity tagging. |
