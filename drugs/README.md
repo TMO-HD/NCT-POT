@@ -53,11 +53,12 @@ To be added
 | Date | Task |
 | --- | --- |
 | 2022-10-18 | Upload of initial sample data |
-| 2022-10-24 | Upload of complete (currently curated) data |
+| 2022-10-24 | Upload of first complete set of (currently curated) data |
 |   | Completion of documentation on Github |
+| 2022-11-end | Major database update |
+|   | Completion of the approvals' biomarker and entity tagging. |
 |   | Addition of Onkostar© XML catalog files to read data catalogs in the [Onkostar©](https://www.onkostar.de/) tumor documentation platform |
-| 2022-11-end | Completion of the approvals' biomarker and entity tagging. |
-|   | EMA approval integration |
+| 2022-12-end | EMA approval integration |
 |   | hemonc.org integration |
 | monthly | Updates from sources |
 | continously | Manual curation |
