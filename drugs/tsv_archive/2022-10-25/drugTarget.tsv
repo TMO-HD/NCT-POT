@@ -568,7 +568,6 @@
 "DTAR-016080"	"SYK"	"protein"	"SYK"		
 "DTAR-016153"	"TACR1"	"protein"	"TACR1"		
 "DTAR-016156"	"TACSTD2"	"protein"	"TACSTD2"		
-"DTAR-016327"	"TBL1X"	"protein"	"TBL1X"		
 "DTAR-016351"	"TBXA2R"	"protein"	"TBXA2R"		
 "DTAR-016353"	"TBXT"	"protein"	"TBXT"		
 "DTAR-016413"	"TDO2"	"protein"	"TDO2"		
@@ -657,5 +656,4 @@
 "DTAR-018323"	"XDH"	"protein"	"XDH"		
 "DTAR-018325"	"XIAP"	"protein"	"XIAP"		
 "DTAR-018343"	"XPO1"	"protein"	"XPO1"		
-"DTAR-018365"	"YAP1"	"protein"	"YAP1"		
 "DTAR-019238"	"Proteasome"	"protein"		"multi protein complex"	

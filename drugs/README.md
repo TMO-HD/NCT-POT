@@ -12,13 +12,13 @@ Part of the [**NCT Precision Oncology Thesaurus (NCT-POT)**](https://github.com/
 
 NCT-POT Drugs must address frequent use cases like:
 
-| Searching for | Example of request |
-| --- | --- |
-| **Drugs** | Search for all drugs targeting CLDN18.2, NECTIN4 or KRAS G12C |
-| **Trials** | Search for all available clinical trials combining checkpoint inhibitors with FGFR2 inhibitors |
-| **Evidence** | Search all available evidence in evidence databases (like CIVIC or OncoKB ) for efficacy of inhibitors of the PI3K/AKT/mTOR signaling pathway in colorectal cancer |
-| **Approvals** | Are there drugs approved for NECTIN4-directed therapies in cervical cancer? |
-| **Manufacturers** | Search for manufacturers suitable for a trial combining RAS/RAF/MEK/ERK pathway inhibitors with SHP2 inhibitors? |
+| Searching for     | Example of request                                                                                                                                                 |
+|------------------------------------|------------------------------------|
+| **Drugs**         | Search for all drugs targeting CLDN18.2, NECTIN4 or KRAS G12C                                                                                                      |
+| **Trials**        | Search for all available clinical trials combining checkpoint inhibitors with FGFR2 inhibitors                                                                     |
+| **Evidence**      | Search all available evidence in evidence databases (like CIVIC or OncoKB ) for efficacy of inhibitors of the PI3K/AKT/mTOR signaling pathway in colorectal cancer |
+| **Approvals**     | Are there drugs approved for NECTIN4-directed therapies in cervical cancer?                                                                                        |
+| **Manufacturers** | Search for manufacturers suitable for a trial combining RAS/RAF/MEK/ERK pathway inhibitors with SHP2 inhibitors?                                                   |
 
 ## Entity relationship model
 
@@ -32,46 +32,42 @@ The drug classes are a hierarchal taxonomy, self-maintained by the TMO and focus
 
 ## Sources for assembly
 
-| name | source url | assembly tables | comment |
-| --- | --- | --- | --- |
-| **CIVIC Variant Types** | https://civicdb.org/variant-types/home | approvalBiomarker | some items ot covered in the sequence ontology |
-| **FDA Drugs** | https://www.fda.gov/drugs/drug-approvals-and-databases/drugsfda-data-files | drug, drugProduct, approval |   |
-| **HGNC Genes** | https://www.genenames.org/ | drugTarget, drugClass, drugTarget, approvalBiomarker |   |
-| **NCI Thesaurus** | https://www.ebi.ac.uk/ols/ontologies/ncit | drug, drugTarget | only (a subset of) nodes below NCIT\_C1909 ("Pharmacologic Substance") is used |
-| **NCT POT Drugs - drug classes** | https://github.com/TMO-HD/NCT-POT/tree/main/drugs | drugClass | self-maintained at NCT Heidelberg |
-| **NCT POT Drugs - manufacturer** | https://github.com/TMO-HD/NCT-POT/tree/main/drugs | manufacturer | self-maintained at NCT Heidelberg |
-| **Oncotree** | http://oncotree.mskcc.org/ | approval |   |
-| **Sequence Ontology** | http://www.sequenceontology.org/ | approvalBiomarker | manually selected items |
-| **Uniprot** | https://www.uniprot.org/ | drugTarget, approvalBiomarker |   |
+| name                             | source url                                                                   | assembly tables                                      | comment                                                                       |
+|------------------|------------------|------------------|------------------|
+| **CIVIC Variant Types**          | <https://civicdb.org/variant-types/home>                                     | approvalBiomarker                                    | some items ot covered in the sequence ontology                                |
+| **FDA Drugs**                    | <https://www.fda.gov/drugs/drug-approvals-and-databases/drugsfda-data-files> | drug, drugProduct, approval                          |                                                                               |
+| **HGNC Genes**                   | <https://www.genenames.org/>                                                 | drugTarget, drugClass, drugTarget, approvalBiomarker |                                                                               |
+| **NCI Thesaurus**                | <https://www.ebi.ac.uk/ols/ontologies/ncit>                                  | drug, drugTarget                                     | only (a subset of) nodes below NCIT_C1909 ("Pharmacologic Substance") is used |
+| **NCT POT Drugs - drug classes** | <https://github.com/TMO-HD/NCT-POT/tree/main/drugs>                          | drugClass                                            | self-maintained at NCT Heidelberg                                             |
+| **NCT POT Drugs - manufacturer** | <https://github.com/TMO-HD/NCT-POT/tree/main/drugs>                          | manufacturer                                         | self-maintained at NCT Heidelberg                                             |
+| **Oncotree**                     | <http://oncotree.mskcc.org/>                                                 | approval                                             |                                                                               |
+| **Sequence Ontology**            | <http://www.sequenceontology.org/>                                           | approvalBiomarker                                    | manually selected items                                                       |
+| **Uniprot**                      | <https://www.uniprot.org/>                                                   | drugTarget, approvalBiomarker                        |                                                                               |
 
 ## Data curation process
 
 To be added
 
-## Roadmap
+## Roadmap {#roadmap}
 
-| Date | Task |
-| --- | --- |
-| 2022-10-18 | Upload of initial sample data |
-| 2022-10-24 | Upload of first complete set of (currently curated) data |
-|   | Completion of documentation on Github |
-| 2022-11-end | Major database update |
-|   | Completion of the approvals' biomarker and entity tagging. |
-|   | Addition of Onkostar© XML catalog files to read data catalogs in the [Onkostar©](https://www.onkostar.de/) tumor documentation platform |
-| 2022-12-end | EMA approval integration |
-|   | hemonc.org integration |
-| monthly | Updates from sources |
-| continously | Manual curation |
+| Date        | Task                                                       |
+|-------------|------------------------------------------------------------|
+| 2023-01-end | Major database update                                      |
+|             | Completion of the approvals' biomarker and entity tagging. |
+| 2023-02-end | EMA approval integration                                   |
+|             | hemonc.org integration                                     |
+| monthly     | Updates from sources                                       |
+| continously | Manual curation                                            |
 
 ## Download
 
 **NCT POT Drugs** is released monthly.
 
-| Date | RData | TSV | Onkostar® | Comment |
-| --- | --- | --- | --- | --- |
-| 2022-10-19 | [Download](https://github.com/TMO-HD/NCT-POT/tree/main/drugs/RData_archive/2022-10-19) | [Download](https://github.com/TMO-HD/NCT-POT/tree/main/drugs/tsv_archive/2022-10-19) | upcoming | large sample file, but not yet totally complete (see [Roadmap](#Roadmap)) |
+| Date       | RData                                                               | TSV                                                               | Onkostar®                                                                             |
+|---------------|---------------|---------------|---------------|
+| 2023-01-10 | [Download](https://github.com/TMO-HD/NCT-POT/tree/main/drugs/RData) | [Download](https://github.com/TMO-HD/NCT-POT/tree/main/drugs/tsv) | [Download](https://github.com/TMO-HD/NCT-POT/tree/main/drugs/onkostarPropertyCatalog) |
 
-## License
+## License {#license}
 
 NCT POT Drugs is released under the [**CC-BY-NC 4.0 International license**](https://creativecommons.org/licenses/by-nc/4.0/) and is free-of-charge usable in a non-commercial environment. 
 
@@ -85,4 +81,4 @@ Please report via [**mail**](Mailto:simon.kreutzfeldt@nct-heidelberg.de) or in t
 
 ## Publications
 
-*   Simon Kreutzfeldt, Alexander Knurr, Daniel Hübschmann, Peter Horak, Stefan Fröhling, **NCT Precision Oncology Thesaurus Drugs – a Curated Database for Drugs, Drug Classes, and Drug Targets in Precision Cancer Medicine**; medRxiv 2022.09.11.22279783; doi: [doi.org/10.1101/2022.09.11.22279783](https://doi.org/10.1101/2022.09.11.22279783)
+-   Simon Kreutzfeldt, Alexander Knurr, Daniel Hübschmann, Peter Horak, Stefan Fröhling, **NCT Precision Oncology Thesaurus Drugs -- a Curated Database for Drugs, Drug Classes, and Drug Targets in Precision Cancer Medicine**; medRxiv 2022.09.11.22279783; doi: [doi.org/10.1101/2022.09.11.22279783](https://doi.org/10.1101/2022.09.11.22279783)
