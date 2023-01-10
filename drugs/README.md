@@ -67,7 +67,7 @@ To be added
 |---------------|---------------|---------------|---------------|
 | 2023-01-10 | [Download](https://github.com/TMO-HD/NCT-POT/tree/main/drugs/RData) | [Download](https://github.com/TMO-HD/NCT-POT/tree/main/drugs/tsv) | [Download](https://github.com/TMO-HD/NCT-POT/tree/main/drugs/onkostarPropertyCatalog) |
 
-## License {#license}
+## License
 
 NCT POT Drugs is released under the [**CC-BY-NC 4.0 International license**](https://creativecommons.org/licenses/by-nc/4.0/) and is free-of-charge usable in a non-commercial environment. 
 
