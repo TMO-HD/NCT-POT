@@ -1,2 +1,2 @@
 "approval"	"approvalBiomarker"	"drug"	"drugClass"	"drugProduct"	"drugTarget"	"manufacturer"	"approval_oncotree"	"approval_approvalBiomarker"	"drug_drugProduct"	"drug_drugTarget"	"drug_drugClass"	"drugClass_drugTarget"	"drugProduct_manufacturer"
-18	8	18485	285	2683	660	24	20	43	3064	19163	923	365	2684
+18	8	881	367	31	706	50	20	10	31	1074	1109	474	31
